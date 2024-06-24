@@ -55,15 +55,13 @@ header {
     top: 4px;
 }
 
-a {
+.nav a {
     margin-left: 50px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 23px;
-    letter-spacing: -3%;
     text-transform: lowercase;
 }
 
@@ -201,9 +199,16 @@ a.btn {
     font-size: 30px;
     border-radius: 10px;
     background-color: #1BFF07;
+    border: 1px solid #1BFF07;
     color: #000000;
     text-decoration: none;
     cursor: pointer;
+}
+
+a.btn:hover {
+    color: #1BFF07;
+    background-color: #000000;
+
 }
 
 .section-2
@@ -318,11 +323,17 @@ h2 {
     margin-bottom: 28px;
 }
 
-.for-contact p {
+.contact {
     color: #ffffff;
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 20px;
+}
+
+.nav a:hover,
+.contact a:hover {
+    color: #1BFF07;
+    cursor: pointer;
 }
 
 footer h3 {
@@ -351,7 +362,6 @@ footer {
 }
 
 .section-7 {
-    margin-top: 150px;
-    margin-bottom: 150px;
     background-color: #000000;
+    padding-bottom: 160px;
 }
