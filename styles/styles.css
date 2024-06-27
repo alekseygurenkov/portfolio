@@ -357,8 +357,15 @@ footer p {
 }
 
 footer {
+    background-color: #000000;
+    width: 1400px;
+    height: 289px;
+}
+
+.footer {
     background-color: #FFFFFF;
-    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     width: 1400px;
     height: 289px;
     padding-top: 76px;
